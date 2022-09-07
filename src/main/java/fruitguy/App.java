@@ -8,8 +8,10 @@ public class App {
     public static void main(String[] args) {
         String[] rotten = new String []{"rottenApple","rottenBanana","rottenApple","rottenPineapple","rottenKiwi"};
 
-        System.out.println(Arrays.toString(removeRotten(rotten)));
-        System.out.println(Arrays.toString(bestSolution(rotten)));
+//        System.out.println(Arrays.toString(removeRotten(rotten)));
+//        System.out.println(Arrays.toString(bestSolution(rotten)));
+
+        System.out.println(generateShape(7));
     }
 
     public static String[] removeRotten(String[] fruitBasket){
@@ -34,5 +36,10 @@ public class App {
             fruitBasket[i] = fruitBasket[i].replace("rotten", "").toLowerCase();
 
         return fruitBasket;
+    }
+    public static String generateShape(int n) {
+        String a = "+".repeat(n) + "\n";
+
+        return a.repeat(n-1) + "+".repeat(n);
     }
 }
