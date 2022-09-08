@@ -13,7 +13,10 @@ public class App {
 
 //        System.out.println(generateShape(7));
 //        System.out.println(Arrays.toString(scrollingText("codewars")));
-        System.out.println(getXO("xxxooo"));
+//        System.out.println(getXO("xxxooo"));
+        Block b = new Block(new int[]{2,2,2});
+        System.out.println(b.getSurfaceArea());
+        System.out.println(b.getVolume());
     }
 
     public static String[] removeRotten(String[] fruitBasket){
