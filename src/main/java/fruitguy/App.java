@@ -6,13 +6,14 @@ import java.util.List;
 
 public class App {
     public static void main(String[] args) {
-        String[] rotten = new String []{"rottenApple","rottenBanana","rottenApple","rottenPineapple","rottenKiwi"};
+//        String[] rotten = new String []{"rottenApple","rottenBanana","rottenApple","rottenPineapple","rottenKiwi"};
 
 //        System.out.println(Arrays.toString(removeRotten(rotten)));
 //        System.out.println(Arrays.toString(bestSolution(rotten)));
 
 //        System.out.println(generateShape(7));
-        System.out.println(Arrays.toString(scrollingText("codewars")));
+//        System.out.println(Arrays.toString(scrollingText("codewars")));
+        System.out.println(getXO("xxxooo"));
     }
 
     public static String[] removeRotten(String[] fruitBasket){
@@ -72,6 +73,31 @@ public class App {
         return result;
     }
 
+    public static boolean getXO (String str) {
+        String text = str.toLowerCase();
+        char firstValue = 'x';
+        char secondValue = 'o';
+        int countX = 0;
+        int countY = 0;
+        for (int i = 0; i < text.length(); i++) {
+            if (text.charAt(i)==firstValue){
+                ++countX;
+            }
+            if (text.charAt(i)==secondValue){
+                ++countY;
+            }
+        }
+        return countY == countX;
+    }
+
+    public static boolean betterSolutionXO (String str){
+        int x = 0, o = 0;
+        for(int i = 0; i < str.length(); i++){
+            if(str.toUpperCase().charAt(i) == 'O') o++;
+            if(str.toUpperCase().charAt(i) == 'X') x++;
+        }
+        return x == o;
+    }
 
 
 
