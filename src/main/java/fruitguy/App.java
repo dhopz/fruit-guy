@@ -1,16 +1,16 @@
 package fruitguy;
 
-import com.sun.security.jgss.GSSUtil;
-
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.IntStream;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println(isThisZero(-770342));
-        System.out.println(roundToNext5(32));
+//        System.out.println(negativeToNext5(-770342));
+//        System.out.println(positiveToNext5(32));
+
+        System.out.println(roundToNext5(121));
+        System.out.println(bestSolutionRoundToNext5(-13265));
 
     }
 
@@ -106,21 +106,48 @@ public class App {
         return numberList;
     }
 
-    public static List<Integer> roundingListCheck(int lastDigit, int[] toZero, int[] toFive, List<Integer> numberList){
-        boolean upToZero = IntStream.of(toZero).anyMatch(x -> x == lastDigit);
-        boolean upToFive = IntStream.of(toFive).anyMatch(x -> x == lastDigit);
+    public static boolean upToZero(int[] toZero,int lastDigit){
+        return IntStream.of(toZero).anyMatch(x -> x == lastDigit);
+    }
 
-        if (upToZero) {
-            numberList.set(numberList.size() - 1, 0);
+    public static boolean upToFive(int[] toFive, int lastDigit){
+        return IntStream.of(toFive).anyMatch(x -> x == lastDigit);
+    }
+
+    public static void listOfDigits(List<Integer> numberList, int numberToRoundTo){
+        numberList.set(numberList.size() - 1, numberToRoundTo);
+    }
+
+    public static List<Integer> roundingListCheck(int lastDigit, int[] toZero, int[] toFive, List<Integer> numberList){
+        if (upToZero(toZero,lastDigit)) {
+            listOfDigits(numberList,0);
         }
 
-        if (upToFive) {
-            numberList.set(numberList.size() - 1, 5);
+        if (upToFive(toFive,lastDigit)) {
+            listOfDigits(numberList,5);
         }
         return numberList;
     }
+    public static int createTotal(List<Integer> numberList){
+        StringBuilder sb = new StringBuilder();
+        for (Integer x : numberList) {
+            sb.append(x.toString());
+        }
+        return Integer.parseInt(String.valueOf(sb));
+    }
+    public static int roundToNext5(int number){
+        int lastDigit = number%10;
 
-    public static int isThisZero(int number){
+        if (lastDigit==0){
+            return number;
+        }
+        if (number > 0){
+            return positiveToNext5(number);
+        } else {
+            return negativeToNext5(number);
+        }
+    }
+    public static int negativeToNext5(int number){
         int[] toZero = new int[]{1,2,3,4};
         int[] toFive = new int[]{6,7,8,9};
 
@@ -128,16 +155,11 @@ public class App {
         int lastDigit = newNum%10;
 
         List<Integer> checkedList = roundingListCheck(lastDigit,toZero,toFive,splitDigits(newNum));
-
-        StringBuilder sb = new StringBuilder();
-        for (Integer x : checkedList) {
-            sb.append(x.toString());
-        }
-        int total = Integer.parseInt(String.valueOf(sb))*-1;
-        System.out.println("this is the negative total " + total);
-        return total;
+        return createTotal(checkedList)*-1;
     }
-    public static int roundToNext5(int number) {
+
+//    public static int singleDigitChecker()
+    public static int positiveToNext5(int number) {
         int[] toZero = new int[]{6,7,8,9};
         int[] toFive = new int[]{1,2,3,4};
         List<Integer> numberList = splitDigits(number);
@@ -166,17 +188,15 @@ public class App {
             }
         }
 
-
-        StringBuilder sb = new StringBuilder();
-        for (Integer x : numberList) {
-            sb.append(x.toString());
+        return createTotal(numberList);
+    }
+        public static int bestSolutionRoundToNext5(int number) {
+            while (number % 5 != 0) {
+                number++;
+            }
+            return number;
         }
-        int total = Integer.parseInt(String.valueOf(sb));
-        System.out.println("this is the total " + total);
-
-        return Integer.parseInt(String.valueOf(sb));
     }
 
 
 
-}
