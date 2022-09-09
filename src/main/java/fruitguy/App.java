@@ -1,22 +1,17 @@
 package fruitguy;
 
+import com.sun.security.jgss.GSSUtil;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.IntStream;
 
 public class App {
     public static void main(String[] args) {
-//        String[] rotten = new String []{"rottenApple","rottenBanana","rottenApple","rottenPineapple","rottenKiwi"};
+        System.out.println(isThisZero(-770342));
+        System.out.println(roundToNext5(32));
 
-//        System.out.println(Arrays.toString(removeRotten(rotten)));
-//        System.out.println(Arrays.toString(bestSolution(rotten)));
-
-//        System.out.println(generateShape(7));
-//        System.out.println(Arrays.toString(scrollingText("codewars")));
-//        System.out.println(getXO("xxxooo"));
-        Block b = new Block(new int[]{2,2,2});
-        System.out.println(b.getSurfaceArea());
-        System.out.println(b.getVolume());
     }
 
     public static String[] removeRotten(String[] fruitBasket){
@@ -100,6 +95,86 @@ public class App {
             if(str.toUpperCase().charAt(i) == 'X') x++;
         }
         return x == o;
+    }
+
+    public static List<Integer> splitDigits(Integer number){
+        String[] list = String.valueOf(number).split("");
+        List<Integer> numberList = new ArrayList<>();
+        for(String s : list) {
+            numberList.add(Integer.valueOf(s));
+        }
+        return numberList;
+    }
+
+    public static List<Integer> roundingListCheck(int lastDigit, int[] toZero, int[] toFive, List<Integer> numberList){
+        boolean upToZero = IntStream.of(toZero).anyMatch(x -> x == lastDigit);
+        boolean upToFive = IntStream.of(toFive).anyMatch(x -> x == lastDigit);
+
+        if (upToZero) {
+            numberList.set(numberList.size() - 1, 0);
+        }
+
+        if (upToFive) {
+            numberList.set(numberList.size() - 1, 5);
+        }
+        return numberList;
+    }
+
+    public static int isThisZero(int number){
+        int[] toZero = new int[]{1,2,3,4};
+        int[] toFive = new int[]{6,7,8,9};
+
+        int newNum = Math.abs(number);
+        int lastDigit = newNum%10;
+
+        List<Integer> checkedList = roundingListCheck(lastDigit,toZero,toFive,splitDigits(newNum));
+
+        StringBuilder sb = new StringBuilder();
+        for (Integer x : checkedList) {
+            sb.append(x.toString());
+        }
+        int total = Integer.parseInt(String.valueOf(sb))*-1;
+        System.out.println("this is the negative total " + total);
+        return total;
+    }
+    public static int roundToNext5(int number) {
+        int[] toZero = new int[]{6,7,8,9};
+        int[] toFive = new int[]{1,2,3,4};
+        List<Integer> numberList = splitDigits(number);
+
+        int lastDigit = number%10;
+
+        boolean upToZero = IntStream.of(toZero).anyMatch(x -> x == lastDigit);
+        boolean upToFive = IntStream.of(toFive).anyMatch(x -> x == lastDigit);
+
+        if (numberList.size()>1) {
+            if (upToZero) {
+                numberList.set(numberList.size() - 1, 0);
+                int newNum = numberList.get(numberList.size() - 2) + 1;
+                numberList.set(numberList.size() - 2, newNum);
+            }
+
+            if (upToFive) {
+                numberList.set(numberList.size() - 1, 5);
+            }
+        } else{
+            if(upToZero){
+                numberList.set(0,10);
+            }
+            if(upToFive){
+                numberList.set(0,5);
+            }
+        }
+
+
+        StringBuilder sb = new StringBuilder();
+        for (Integer x : numberList) {
+            sb.append(x.toString());
+        }
+        int total = Integer.parseInt(String.valueOf(sb));
+        System.out.println("this is the total " + total);
+
+        return Integer.parseInt(String.valueOf(sb));
     }
 
 
