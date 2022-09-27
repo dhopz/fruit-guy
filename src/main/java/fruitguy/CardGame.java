@@ -9,14 +9,16 @@ public class CardGame {
         int stevePoints = 0;
         int joshPoints = 0;
 
-        if(Objects.equals(deckSteve[0],"A") && Objects.equals(deckJosh[0],"K")){
-            stevePoints += 1;
-        } else {
-            joshPoints += 1;
+        for(int i = 0; i < deckSteve.length; i++) {
+            if (Objects.equals(deckSteve[i], "A") && Objects.equals(deckJosh[i], "K")) {
+                stevePoints += 1;
+            } else {
+                joshPoints += 1;
+            }
         }
 
         if(stevePoints>joshPoints){
-            return "Steve wins 1 to 0";
+            return "Steve wins " + stevePoints + " to " + joshPoints;
         } else {
             return "Josh wins 1 to 0";
         }
