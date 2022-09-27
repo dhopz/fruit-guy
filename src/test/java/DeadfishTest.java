@@ -46,7 +46,23 @@ class DeadfishTest {
     }
     @Test
     void parse_GivenAStringOfIOIO_ThenArrayHasASizeOf2(){
-        int[] result = new int[]{1,1};
+        int[] result = new int[]{1,2};
         assertArrayEquals(result, fish.parse("ioio"));
+    }
+    @Test
+    void parse_GivenAStringThatSquaresOfIO_ThenArrayHasASizeOf2AndIsSquared(){
+        int[] result = new int[]{2,4};
+        assertArrayEquals(result, fish.parse("iioso"));
+    }
+
+    @Test
+    void parse_GivenARangeOfStringItems_ThenArrayHasASizeOf2AndIsSquared(){
+        int[] result = new int[]{8,64};
+        assertArrayEquals(result, fish.parse("iiisdoso"));
+    }
+    @Test
+    void parse_GivenARangeOfStringItems_ThenArrayHasASizeOf3AndIsSquared(){
+        int[] result = new int[]{8,64,3600};
+        assertArrayEquals(result, fish.parse("iiisdosodddddiso"));
     }
 }
