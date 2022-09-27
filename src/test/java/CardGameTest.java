@@ -74,4 +74,16 @@ class CardGameTest {
         String[] deckJosh = new String[]{"6","4","8"};
         assertEquals("Josh wins 2 to 1", game.winner(deckSteve,deckJosh));
     }
+    @Test
+    void winner_GivenCardsThatAreSmallDeck_ThenReturnTie(){
+        String[] deckSteve = new String[]{"T"};
+        String[] deckJosh = new String[]{"T"};
+        assertEquals("Tie!", game.winner(deckSteve,deckJosh));
+    }
+    @Test
+    void winner_GivenCardsThatAreNumericalInDifferentOrderWithExample_ThenReturnStringWithWinner(){
+        String[] deckSteve = new String[]{"A","7","8"};
+        String[] deckJosh = new String[]{"K","5","9"};
+        assertEquals("Steve wins 2 to 1", game.winner(deckSteve,deckJosh));
+    }
 }
