@@ -1,15 +1,43 @@
 package fruitguy;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Deadfish {
-    public static int[] parse(String data){
+
+    private int fishyNum = 0;
+    public int[] parse(String data){
+        List<Integer> newArr = new ArrayList<>();
         char[] fishes = data.toCharArray();
 
         for(char fish:fishes){
-            System.out.println(fish);
-        }
+            if(fish == 'i'){
+                fishyNum++;
+            }
+            if(fish == 's'){
+                fishyNum = fishyNum * fishyNum;
+            }
+            if(fish == 'o'){
+                newArr.add(fishyNum);
+            }
+            if(fish== 'd'){
+                fishyNum--;
+            }
+       }
+        return buildIntArray(newArr);
+    }
+    public int getFishyNum() {
+        return fishyNum;
+    }
 
-        int[] newArr = new int[]{1};
-        return newArr;
+    public int[] buildIntArray(List<Integer> integers) {
+        int[] ints = new int[integers.size()];
+        int i = 0;
+        for (Integer n : integers) {
+            ints[i++] = n;
+        }
+        return ints;
     }
 
 }

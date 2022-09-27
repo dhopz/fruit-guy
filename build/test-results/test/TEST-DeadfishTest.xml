@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DeadfishTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2022-09-27T15:06:12" hostname="LUK-5CG01160SZ" time="0.022">
+<testsuite name="DeadfishTest" tests="7" skipped="0" failures="1" errors="0" timestamp="2022-09-27T15:38:40" hostname="LUK-5CG01160SZ" time="0.031">
   <properties/>
-  <testcase name="parse_GivenAStringOfII_ThenReturnAnArrayThatSquares()" classname="DeadfishTest" time="0.021">
-    <failure message="org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: &lt;9&gt; but was: &lt;1&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: &lt;9&gt; but was: &lt;1&gt;
+  <testcase name="parse_GivenAStringOfIIISD_ThenNumberThatSquaresIsDecremented()" classname="DeadfishTest" time="0.018"/>
+  <testcase name="parse_GivenAStringOfIIS_ThenNumberThatSquares()" classname="DeadfishTest" time="0.0"/>
+  <testcase name="parse_GivenAStringOfIOIO_ThenArrayHasASizeOf2()" classname="DeadfishTest" time="0.003">
+    <failure message="org.opentest4j.AssertionFailedError: array contents differ at index [1], expected: &lt;1&gt; but was: &lt;2&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: array contents differ at index [1], expected: &lt;1&gt; but was: &lt;2&gt;
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at app//org.junit.jupiter.api.AssertArrayEquals.failArraysNotEqual(AssertArrayEquals.java:432)
 	at app//org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:244)
 	at app//org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:90)
 	at app//org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:86)
 	at app//org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1277)
-	at app//DeadfishTest.parse_GivenAStringOfII_ThenReturnAnArrayThatSquares(DeadfishTest.java:23)
+	at app//DeadfishTest.parse_GivenAStringOfIOIO_ThenArrayHasASizeOf2(DeadfishTest.java:50)
 	at java.base@11.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@11.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base@11.0.12/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -95,14 +97,10 @@
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="parse_GivenAStringOfI_ThenReturnAnArray()" classname="DeadfishTest" time="0.001"/>
-  <system-out><![CDATA[i
-i
-i
-s
-o
-i
-o
-]]></system-out>
+  <testcase name="parse_GivenAStringOfI_ThenReturnAnIncrementOf1()" classname="DeadfishTest" time="0.002"/>
+  <testcase name="parse_GivenAStringOfI_ThenReturnAnArray()" classname="DeadfishTest" time="0.0"/>
+  <testcase name="parse_GivenAStringOfIIIS_ThenReturnAnArrayWithASquaredNum()" classname="DeadfishTest" time="0.0"/>
+  <testcase name="parse_GivenAStringOfIIISDO_ThenNumberThatSquaresIsDecremented()" classname="DeadfishTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
