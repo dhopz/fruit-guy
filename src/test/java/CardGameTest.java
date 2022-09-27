@@ -29,4 +29,49 @@ class CardGameTest {
         String[] deckJosh = new String[]{"K","K"};
         assertEquals("Steve wins 2 to 0", game.winner(deckSteve,deckJosh));
     }
+    @Test
+    void winner_Given2CardsEachWithJoshAce_ThenReturnStringWithWinnerHaving2Points(){
+        String[] deckSteve = new String[]{"K","K"};
+        String[] deckJosh = new String[]{"A","A"};
+        assertEquals("Josh wins 2 to 0", game.winner(deckSteve,deckJosh));
+    }
+    @Test
+    void winner_Given2CardsEachTheSame_ThenReturnStringWithTie(){
+        String[] deckSteve = new String[]{"K","K"};
+        String[] deckJosh = new String[]{"K","K"};
+        assertEquals("Tie!", game.winner(deckSteve,deckJosh));
+    }
+
+    @Test
+    void winner_Given2CardsEachTheSameButDifferentOrder_ThenReturnStringWithTie() {
+        String[] deckSteve = new String[]{"A", "K"};
+        String[] deckJosh = new String[]{"K", "A"};
+        assertEquals("Tie!", game.winner(deckSteve, deckJosh));
+    }
+
+    @Test
+    void winner_Given3CardsEach_ThenReturnStringWithTie(){
+        String[] deckSteve = new String[]{"A", "K", "K"};
+        String[] deckJosh = new String[]{"K", "A", "K"};
+        assertEquals("Tie!", game.winner(deckSteve, deckJosh));
+    }
+
+    @Test
+    void winner_GivenCardsThatAreNotKingOrAce_ThenReturnStringWithWinner(){
+        String[] deckSteve = new String[]{"Q"};
+        String[] deckJosh = new String[]{"J"};
+        assertEquals("Steve wins 1 to 0", game.winner(deckSteve,deckJosh));
+    }
+    @Test
+    void winner_GivenCardsThatAreNumerical_ThenReturnStringWithWinner(){
+        String[] deckSteve = new String[]{"3","4","5"};
+        String[] deckJosh = new String[]{"6","7","8"};
+        assertEquals("Josh wins 3 to 0", game.winner(deckSteve,deckJosh));
+    }
+    @Test
+    void winner_GivenCardsThatAreNumericalInDifferentOrder_ThenReturnStringWithWinner(){
+        String[] deckSteve = new String[]{"3","7","5"};
+        String[] deckJosh = new String[]{"6","4","8"};
+        assertEquals("Josh wins 2 to 1", game.winner(deckSteve,deckJosh));
+    }
 }
