@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="WordScoreTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-29T16:14:10" hostname="LUK-5CG01160SZ" time="44.834">
+<testsuite name="WordScoreTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-09-29T16:19:40" hostname="LUK-5CG01160SZ" time="0.021">
   <properties/>
-  <testcase name="returnScore_ScorePoints_ReturnString()" classname="WordScoreTest" time="44.834"/>
+  <testcase name="returnScore_InputString_ReturnAWord()" classname="WordScoreTest" time="0.017"/>
+  <testcase name="returnScore_IntroduceScoringForWordInArray_ReturnAStringWord()" classname="WordScoreTest" time="0.0"/>
+  <testcase name="returnScore_InputString_ReturnString()" classname="WordScoreTest" time="0.0"/>
+  <testcase name="returnScore_ScorePoints_ReturnString()" classname="WordScoreTest" time="0.0"/>
+  <testcase name="returnScore_ScorePointsLongSentence_ReturnString()" classname="WordScoreTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

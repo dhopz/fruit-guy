@@ -30,4 +30,9 @@ class WordScoreTest {
     void returnScore_ScorePoints_ReturnString(){
         assertEquals("cc",score.returnScore("cc aaa"));
     }
+
+    @Test
+    void returnScore_ScorePointsLongSentence_ReturnString(){
+        assertEquals("volcano",score.returnScore("what time are we climbing up to the volcano"));
+    }
 }
