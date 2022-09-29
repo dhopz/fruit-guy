@@ -65,4 +65,10 @@ class DeadfishTest {
         int[] result = new int[]{8,64,3600};
         assertArrayEquals(result, fish.parse("iiisdosodddddiso"));
     }
+    @Test
+    void parse_GivenARangeOfStringItems_ThenDifferentArrayHasASizeOf3AndIsSquared(){
+        Integer[] result = new Integer[]{8,64,3600};
+        fish.parse("iiisdosodddddiso");
+        assertArrayEquals(result, fish.getArrOfIntegers());
+    }
 }

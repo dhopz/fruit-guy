@@ -6,6 +6,8 @@ import java.util.List;
 public class Deadfish {
 
     private int fishyNum = 0;
+
+    private Integer[] arrOfIntegers;
     public int[] parse(String data){
         List<Integer> newArr = new ArrayList<>();
         char[] fishes = data.toCharArray();
@@ -24,6 +26,7 @@ public class Deadfish {
                 fishyNum--;
             }
        }
+        arrOfIntegers = differentArray(newArr);
         return buildIntArray(newArr);
     }
     public int getFishyNum() {
@@ -38,5 +41,13 @@ public class Deadfish {
         }
         return ints;
     }
+
+    public Integer[] differentArray(List<Integer> integers){
+        return integers.toArray(new Integer[0]);
+    }
+    public Integer[] getArrOfIntegers() {
+        return arrOfIntegers;
+    }
+
 
 }
