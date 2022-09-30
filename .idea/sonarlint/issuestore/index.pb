@@ -17,3 +17,7 @@ Q
 !src/main/java/fruitguy/Shape.java,c\8\c8b12369ea904016bc26e121b85f330a308f639e
 O
 src/main/java/fruitguy/App.java,e\e\eebaff5efc71c4de40eedad32a07e71f5eb85e6f
+O
+src/test/java/CardGameTest.java,0\c\0cdc1351bc15e168b2173020858dfd4bda815569
+O
+src/test/java/DeadfishTest.java,d\c\dc594e911b3b80153e36382e20bd526729deefd4

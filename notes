@@ -1,0 +1,20 @@
+Suppose we have an array or strings with lots of duplication, like this...
+
+["a", "b", "a", "f", "b", "a", "z", ....]
+We want to figure out which strings appear in the array and how many times each one appears
+
+Input
+["a", "b", "a", "f", "b", "a", "z", ....]
+["words","words","String","STRING"]
+["a","a","a","b","b"]
+
+Process
+case sensitive
+for each in an array counter
+
+Output
+["a","a","a","b","b"] HashMap {a=3,b=2}
+["a"] == {a=1}
+
+
+
