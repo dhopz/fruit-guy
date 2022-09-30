@@ -19,11 +19,11 @@ public class GrabScab {
         for(String singleWord:words){
             int counter = 0;
             String[] singleWordSplit = singleWord.split("");
-            for(int i = 0; i < s.length(); i++){
+            for(int i = 0; i < singleWord.length(); i++){
                 counter += letters.indexOf(singleWordSplit[i]);
-                if (counter == wordScore){
-                    checkedWords.add(singleWord);
-                }
+            }
+            if (counter == wordScore && s.length() == singleWord.length()){
+                checkedWords.add(singleWord);
             }
         }
         return checkedWords;

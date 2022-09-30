@@ -72,7 +72,8 @@ class GrabScabTest {
         words.add("hills");
         words.add("mesa");
         correctWords.add("mountains");
-        assertEquals(correctWords,grab.convert("ainstuom",words));
+        assertEquals(correctWords,grab.convert("ainstuomn",words));
     }
+
 
 }
