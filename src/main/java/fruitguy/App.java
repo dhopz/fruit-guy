@@ -4,14 +4,41 @@ import java.util.*;
 
 public class App {
     public static void main(String[] args) {
-//        System.out.println(NextFive.roundToNext5(-12323));
+        System.out.println(Arrays.toString(kookaCounter("HaHahaha")));
+        String S = "hahahaha";
 
-//        System.out.println(Arrays.toString(Fizz.createFizz()));
+        System.out.println(splitty(S,2));
 
-//        System.out.println(itemsInBasket("AAA"));
-        System.out.println(randomNumberGeneratorList());
+    }
 
+    public static List<String> splitty(String str, int interval) {
+        if (str.length() <= interval) {
+            return List.of(str);
+        }
+        var subStrings = new ArrayList<String>();
+        int pointer = 0;
+        while (str.length() > pointer) {
+            String substring = str.substring(pointer, pointer + interval);
+            subStrings.add(substring);
+            pointer += interval;
+        }
 
+        return subStrings;
+    }
+
+    public static String[] kookaCounter(String laughing){
+        System.out.println(laughing.length());
+        int counter= 0;
+
+        System.out.println(laughing);
+        return laughing.split("ha");
+    }
+
+    public static boolean setAlarm(boolean employed, boolean vacation) {
+        if (employed && vacation) {
+            return false;
+        }
+        return employed;
     }
 
     public static List<Integer> randomNumberGeneratorList(){
@@ -46,6 +73,8 @@ public class App {
         }
         return countItems;
     }
+
+
 }
 
 

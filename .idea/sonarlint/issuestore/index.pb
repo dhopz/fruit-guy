@@ -1,23 +1,35 @@
 
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-T
-$src/main/java/fruitguy/NextFive.java,0\e\0e5b90acdb0425da6b6a6736b5a1e26437197dfe
 N
 src/main/java/fruitguy/XO.java,9\a\9af1fd06e994cffaecb89176b1204d99d9e2c2ea
 P
  src/main/java/fruitguy/Text.java,f\3\f3550b6dac2cb902069e08fa2b001be1a61bd2ab
-R
-"src/main/java/fruitguy/Rotten.java,d\3\d31d8c57c6b455860ce99c0c427418ca99685b6d
 P
  src/main/java/fruitguy/Fizz.java,1\9\19e7855718a5946c476ff1efb55674cb0506367a
 Q
 !src/main/java/fruitguy/Block.java,a\0\a0c385d3326dc47f001d6d7905dff564da1422e8
-Q
-!src/main/java/fruitguy/Shape.java,c\8\c8b12369ea904016bc26e121b85f330a308f639e
-O
-src/main/java/fruitguy/App.java,e\e\eebaff5efc71c4de40eedad32a07e71f5eb85e6f
 O
 src/test/java/CardGameTest.java,0\c\0cdc1351bc15e168b2173020858dfd4bda815569
 O
 src/test/java/DeadfishTest.java,d\c\dc594e911b3b80153e36382e20bd526729deefd4
+T
+$src/main/java/fruitguy/CardGame.java,d\3\d3a28cdee3169f262f04a2af1195376a9c2171fb
+5
+notes,3\a\3add7b9612102f2a7dbe4ed4fe886e07e847c24d
+P
+ src/test/java/WordScoreTest.java,e\5\e5e7253177e2b40beeb4fc1d9f33471fef9d568c
+O
+src/test/java/GrabScabTest.java,4\7\478e89254d28ba90a8cc0f3f41bec0715cdb6e9b
+U
+%src/main/java/fruitguy/WordScore.java,f\d\fd83eab8ee639ef54e7e8ff87d02ddca53314073
+T
+$src/main/java/fruitguy/GrabScab.java,4\3\43a53fbe86cab21377c975ceec28aeb4d49ba5c3
+U
+%src/main/java/fruitguy/Deodorant.java,e\d\edb40e869d1e258fde022d86d8f7b8f60c9f6d9f
+P
+ src/test/java/DeodorantTest.java,2\e\2eee54551bc81d38a07db73b94da888b1fc9a75d
+Q
+!src/test/java/StringKataTest.java,d\a\da6aef9a3494730d5c6febfa3028eb7e675b3236
+O
+src/test/java/GradbookTest.java,a\9\a98f4cc45e9f373dabe577db51c28dfe12385452
