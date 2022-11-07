@@ -5,6 +5,8 @@ import java.util.*;
 public class App {
     public static void main(String[] args) {
         System.out.println(High.highandlow("1 2 3 4 5"));
+        int[] stuff = new int[]{2334454,5};
+        System.out.println(Arrays.toString(High.minMax(stuff)));
     }
 
     public static boolean setAlarm(boolean employed, boolean vacation) {

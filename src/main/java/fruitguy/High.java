@@ -27,4 +27,9 @@ public class High {
         return list.get(list.size() - 1) + " " + list.get(0);
     }
 
+    public static int[] minMax(int[] arr) {
+        Arrays.sort(arr);
+        return new int[]{arr[0], arr[arr.length - 1]};
+    }
+
 }
