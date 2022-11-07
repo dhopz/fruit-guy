@@ -4,6 +4,7 @@ import java.util.*;
 
 public class App {
     public static void main(String[] args) {
+        System.out.println(High.highandlow("1 2 3 4 5"));
     }
 
     public static boolean setAlarm(boolean employed, boolean vacation) {
