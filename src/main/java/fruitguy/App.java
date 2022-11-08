@@ -4,9 +4,9 @@ import java.util.*;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println(High.highandlow("1 2 3 4 5"));
-        int[] stuff = new int[]{2334454,5};
-        System.out.println(Arrays.toString(High.minMax(stuff)));
+        int[] codewarrior = new int[]{2, 4, 3, 1};
+        int[] opponent = new int[]{4, 5, 1, 2};
+        System.out.println(CodeWar.codeWarResult(codewarrior,opponent));
     }
 
     public static boolean setAlarm(boolean employed, boolean vacation) {

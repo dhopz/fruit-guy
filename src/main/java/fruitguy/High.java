@@ -16,7 +16,6 @@ public class High {
     }
 
     public static String betterSolution(String numbers) {
-        // Code here or
         String[] num = numbers.split(" ");
         ArrayList<Integer> list = new ArrayList<>();
         for(String s : num){

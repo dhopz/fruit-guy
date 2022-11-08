@@ -33,3 +33,13 @@ Q
 !src/test/java/StringKataTest.java,d\a\da6aef9a3494730d5c6febfa3028eb7e675b3236
 O
 src/test/java/GradbookTest.java,a\9\a98f4cc45e9f373dabe577db51c28dfe12385452
+T
+$src/main/java/fruitguy/NextFive.java,0\e\0e5b90acdb0425da6b6a6736b5a1e26437197dfe
+Q
+!src/main/java/fruitguy/Shape.java,c\8\c8b12369ea904016bc26e121b85f330a308f639e
+T
+$src/main/java/fruitguy/Gradbook.java,f\3\f3c292b3aa97c95b738705a94ebbcb11705a6cdf
+R
+"src/main/java/fruitguy/Rotten.java,d\3\d31d8c57c6b455860ce99c0c427418ca99685b6d
+V
+&src/main/java/fruitguy/StringKata.java,c\a\cab071e03891e977c35cbc5d6f37eb2fa5ed225f
