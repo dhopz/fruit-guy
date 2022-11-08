@@ -4,9 +4,14 @@ import java.util.*;
 
 public class App {
     public static void main(String[] args) {
-        int[] codewarrior = new int[]{2, 4, 3, 1};
-        int[] opponent = new int[]{4, 5, 1, 2};
-        System.out.println(CodeWar.codeWarResult(codewarrior,opponent));
+//        int[] array = new int[] {1, 2, 6, 9, 11};
+        int[] array2 = new int[] {104, 103, 91, 86, 86, 64, 62,};
+//        int[] array3 = new int[] {4, 2, 30};
+
+//        System.out.println(isSortedAndHow(array));
+        System.out.println(isSortedAndHow(array2));
+//        System.out.println(isSortedAndHow(array3));
+
     }
 
     public static boolean setAlarm(boolean employed, boolean vacation) {
@@ -47,6 +52,25 @@ public class App {
             }
         }
         return countItems;
+    }
+
+    public static String isSortedAndHow(int[] array) {
+//        System.out.println(Arrays.toString(array));
+        ArrayList<String> indicators = new ArrayList<>();
+
+        for (int i = 1; i < array.length; i++){
+            if (array[i] >= array[i-1]){
+                indicators.add("ascending");
+            }  else if (array[i] <= array[i-1]) {
+                indicators.add("descending");
+            } else {
+                indicators.add("no");
+            }
+        }
+        boolean allEqual = indicators.stream().distinct().limit(2).count() <= 1;
+        System.out.println(indicators);
+
+        return allEqual? "yes, " + indicators.get(0):"no";
     }
 
 
