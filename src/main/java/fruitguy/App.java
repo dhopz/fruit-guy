@@ -59,7 +59,7 @@ public class App {
         ArrayList<String> indicators = new ArrayList<>();
 
         for (int i = 1; i < array.length; i++){
-            if (array[i] >= array[i-1]){
+            if (array[i] > array[i-1]){
                 indicators.add("ascending");
             }  else if (array[i] <= array[i-1]) {
                 indicators.add("descending");
@@ -71,6 +71,19 @@ public class App {
         System.out.println(indicators);
 
         return allEqual? "yes, " + indicators.get(0):"no";
+    }
+
+    public static String isSortedAndHowBetterSolution(int[] array) {
+        boolean desc = false;
+        boolean asc = false;
+        for(int i = 1; i < array.length; i++) {
+            if(array[i] > array[i-1]) asc = true;
+            if(array[i] < array[i-1]) desc = true;
+        }
+        if(asc && !desc) return "yes, ascending";
+        if(desc && !asc) return "yes, descending";
+        return "no";
+
     }
 
 
