@@ -3,7 +3,7 @@ package fruitguy;
 import java.util.ArrayList;
 import java.util.Objects;
 
-class Kooka {
+public class CountKookas {
     public static int Counter(final String laughing) {
         int interval = 2;
         if (laughing.length() <= 1) {
@@ -33,5 +33,4 @@ class Kooka {
         return laughing.isEmpty() ? 0 : laughing.split("haH|Hah").length;
 
     }
-
 }
