@@ -1,37 +1,39 @@
 
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-N
-src/main/java/fruitguy/XO.java,9\a\9af1fd06e994cffaecb89176b1204d99d9e2c2ea
-P
- src/main/java/fruitguy/Text.java,f\3\f3550b6dac2cb902069e08fa2b001be1a61bd2ab
-P
- src/main/java/fruitguy/Fizz.java,1\9\19e7855718a5946c476ff1efb55674cb0506367a
-Q
-!src/main/java/fruitguy/Block.java,a\0\a0c385d3326dc47f001d6d7905dff564da1422e8
 O
 src/test/java/CardGameTest.java,0\c\0cdc1351bc15e168b2173020858dfd4bda815569
 O
 src/test/java/DeadfishTest.java,d\c\dc594e911b3b80153e36382e20bd526729deefd4
-T
-$src/main/java/fruitguy/CardGame.java,d\3\d3a28cdee3169f262f04a2af1195376a9c2171fb
 5
 notes,3\a\3add7b9612102f2a7dbe4ed4fe886e07e847c24d
-P
- src/test/java/WordScoreTest.java,e\5\e5e7253177e2b40beeb4fc1d9f33471fef9d568c
 O
 src/test/java/GrabScabTest.java,4\7\478e89254d28ba90a8cc0f3f41bec0715cdb6e9b
-U
-%src/main/java/fruitguy/WordScore.java,f\d\fd83eab8ee639ef54e7e8ff87d02ddca53314073
-T
-$src/main/java/fruitguy/GrabScab.java,4\3\43a53fbe86cab21377c975ceec28aeb4d49ba5c3
-U
-%src/main/java/fruitguy/Deodorant.java,e\d\edb40e869d1e258fde022d86d8f7b8f60c9f6d9f
 P
  src/test/java/DeodorantTest.java,2\e\2eee54551bc81d38a07db73b94da888b1fc9a75d
-Q
-!src/test/java/StringKataTest.java,d\a\da6aef9a3494730d5c6febfa3028eb7e675b3236
 O
 src/test/java/GradbookTest.java,a\9\a98f4cc45e9f373dabe577db51c28dfe12385452
-T
-$src/main/java/fruitguy/Gradbook.java,f\3\f3c292b3aa97c95b738705a94ebbcb11705a6cdf
+X
+(src/main/java/fruitguy/Katas/Sorter.java,f\4\f4edb1152468c416fa084dc773b957a879af1518
+\
+,src/main/java/fruitguy/Katas/StringKata.java,1\7\17d60661deb29f7330503f71717b10536ba9af65
+^
+.src/main/java/fruitguy/Katas/SheepCounter.java,b\4\b4003c543e11a4f9ce4308f623111d41c7a7a065
+W
+'src/main/java/fruitguy/Katas/Shape.java,4\a\4a171a01255811a3f295276650e854489e4504ea
+X
+(src/main/java/fruitguy/Katas/Rotten.java,1\5\15240760efb732ddbebd8f4f2e6bea351c64f4d8
+]
+-src/main/java/fruitguy/Katas/ReverseWord.java,c\5\c52f5ea35aceb215b24137cb829b804bc66d11eb
+Z
+*src/main/java/fruitguy/Katas/NextFive.java,4\d\4d977b78fad6e96b8df1cc32c4e7c236f8953814
+V
+&src/main/java/fruitguy/Katas/High.java,2\3\23f40739d68ea57a81b7bda5e40d753ceaed6948
+`
+0src/main/java/fruitguy/Katas/NewIncrementer.java,f\e\fe0ef003f1d9f2567e91975a0b4cbc6dc306cd1c
+Z
+*src/main/java/fruitguy/Katas/AlarmSet.java,b\a\ba0dfcfce928e314a07b9e64799f1c57639a5769
+_
+/src/main/java/fruitguy/Katas/BasketCounter.java,d\5\d52d118675bd1e1561c58597b8e19d676fdee6be
+]
+-src/main/java/fruitguy/Katas/CountKookas.java,d\c\dcc43a2d5f2943eb9fa5915fa37d800b811227f7

@@ -1,4 +1,4 @@
-import fruitguy.Deadfish;
+import fruitguy.Katas.Deadfish;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
