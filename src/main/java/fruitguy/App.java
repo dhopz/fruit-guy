@@ -2,20 +2,18 @@ package fruitguy;
 
 //import java.util.*;
 
-
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Locale;
-import java.util.Map;
-
-import static fruitguy.Katas.ScoringTest.sol;
-import static fruitguy.Katas.Vapor.vaporCode;
+import static fruitguy.Katas.ReverseString.reverseWords;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println(vaporCode("Lets go to the movies"));
+        System.out.println(reverseWords("double  spaced  words"));
+        System.out.println(reverseWords("double spaced words"));
+        System.out.println(reverseWords("   "));
 
     }
+
+
+
 
 
 
