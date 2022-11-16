@@ -33,3 +33,15 @@ _
 /src/main/java/fruitguy/Katas/BasketCounter.java,d\5\d52d118675bd1e1561c58597b8e19d676fdee6be
 ]
 -src/main/java/fruitguy/Katas/CountKookas.java,d\c\dcc43a2d5f2943eb9fa5915fa37d800b811227f7
+[
++src/main/java/fruitguy/Katas/WordScore.java,2\7\27258bc8249e8388f86248d9103ccf69a553405a
+W
+'src/main/java/fruitguy/Katas/Vapor.java,6\0\604d6d9d61905da9e03a423c1d2059e9d68fceaf
+]
+-src/main/java/fruitguy/Katas/ScoringTest.java,d\5\d5c21430b83f48cda118458641147bb0b54c6310
+P
+ src/test/java/WordScoreTest.java,e\5\e5e7253177e2b40beeb4fc1d9f33471fef9d568c
+\
+,src/main/java/fruitguy/Katas/StringKata.java,1\7\17d60661deb29f7330503f71717b10536ba9af65
+Q
+!src/test/java/StringKataTest.java,d\a\da6aef9a3494730d5c6febfa3028eb7e675b3236
