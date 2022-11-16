@@ -10,24 +10,14 @@ import java.util.Objects;
 import static fruitguy.Katas.FluchChecker.checkIfFlush;
 import static fruitguy.Katas.ReverseString.reverseWords;
 import static fruitguy.Katas.Stratholme.purify;
+import static fruitguy.Katas.StringSwitch.switcheroo;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println(dontGiveMeFive(4,17));
+        System.out.println(switcheroo("aabacbaa"));
 
     }
 
-    public static int dontGiveMeFive(int start, int end){
-        ArrayList<Integer> numbers = new ArrayList<>();
-
-        for (int i = start; i <= end; i++){
-            if (!String.valueOf(i).contains("5")){
-                numbers.add(i);
-            }
-        }
-
-        return numbers.size();
-    }
 }
 
 
