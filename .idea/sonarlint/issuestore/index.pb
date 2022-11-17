@@ -39,3 +39,7 @@ P
  src/test/java/WordScoreTest.java,e\5\e5e7253177e2b40beeb4fc1d9f33471fef9d568c
 Q
 !src/test/java/StringKataTest.java,d\a\da6aef9a3494730d5c6febfa3028eb7e675b3236
+Z
+*src/main/java/fruitguy/Katas/Deadfish.java,8\f\8fe6c81cfe4d9923a821dc64f615556f3bab50fa
+_
+/src/main/java/fruitguy/Katas/ReverseString.java,6\1\61986c99b10228a430d38f76d2e17e9ec6b5c313
