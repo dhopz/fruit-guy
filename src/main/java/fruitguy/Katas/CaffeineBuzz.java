@@ -1,3 +1,4 @@
+
 package fruitguy.Katas;
 
 public class CaffeineBuzz {
