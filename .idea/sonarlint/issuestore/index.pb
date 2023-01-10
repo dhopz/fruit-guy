@@ -29,8 +29,6 @@ P
  src/test/java/WordScoreTest.java,e\5\e5e7253177e2b40beeb4fc1d9f33471fef9d568c
 Q
 !src/test/java/StringKataTest.java,d\a\da6aef9a3494730d5c6febfa3028eb7e675b3236
-_
-/src/main/java/fruitguy/Katas/ReverseString.java,6\1\61986c99b10228a430d38f76d2e17e9ec6b5c313
 ^
 .src/main/java/fruitguy/Katas/StringSwitch.java,9\9\99edbc1a98143bf7b9ed758c42d6d54bd95fb9e5
 \
@@ -47,10 +45,6 @@ _
 0src/main/java/fruitguy/Katas/DriversLicence.java,f\2\f2fbeab54c3ef8a45feb1fd578e0e744e4f973bf
 V
 &src/main/java/fruitguy/Katas/Fizz.java,c\6\c6504b377b884e1639a52a6984999066ae5445c0
-]
--src/main/java/fruitguy/Katas/ReverseWord.java,c\5\c52f5ea35aceb215b24137cb829b804bc66d11eb
-f
-6src/main/java/fruitguy/Katas/DescendingOrderDigit.java,8\8\8894dca0cf397eeb0e70a7ecc029c9c99f139308
 ]
 -src/main/java/fruitguy/Katas/ScoringTest.java,d\5\d5c21430b83f48cda118458641147bb0b54c6310
 W
