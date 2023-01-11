@@ -2,12 +2,12 @@ package fruitguy;
 import java.util.*;
 import java.lang.Math;
 
-import static fruitguy.Katas.PredictAge.predictAge;
+import static fruitguy.Katas.Bingo.bingo;
 
 
 public class App {
     public static void main(String[] args) {
-        System.out.println(predictAge(65,60,75,55,60,63,64,45));
+        System.out.println(bingo(new int[]{21,13,2,7,5,14,7,15,9,10}));
 
     }
 

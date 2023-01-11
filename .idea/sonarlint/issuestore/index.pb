@@ -31,8 +31,6 @@ Q
 !src/test/java/StringKataTest.java,d\a\da6aef9a3494730d5c6febfa3028eb7e675b3236
 ^
 .src/main/java/fruitguy/Katas/StringSwitch.java,9\9\99edbc1a98143bf7b9ed758c42d6d54bd95fb9e5
-\
-,src/main/java/fruitguy/Katas/StringKata.java,1\7\17d60661deb29f7330503f71717b10536ba9af65
 X
 (src/main/java/fruitguy/Katas/Sorter.java,f\4\f4edb1152468c416fa084dc773b957a879af1518
 V
@@ -47,10 +45,6 @@ V
 &src/main/java/fruitguy/Katas/Fizz.java,c\6\c6504b377b884e1639a52a6984999066ae5445c0
 ]
 -src/main/java/fruitguy/Katas/ScoringTest.java,d\5\d5c21430b83f48cda118458641147bb0b54c6310
-W
-'src/main/java/fruitguy/Katas/Vapor.java,6\0\604d6d9d61905da9e03a423c1d2059e9d68fceaf
-[
-+src/main/java/fruitguy/Katas/WordScore.java,2\7\27258bc8249e8388f86248d9103ccf69a553405a
 Z
 *src/main/java/fruitguy/Katas/CardGame.java,c\7\c73a0c545ea225ecd665b406e5ee66c6266946e3
 ^
