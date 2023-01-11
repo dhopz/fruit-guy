@@ -63,8 +63,6 @@ Z
 *src/main/java/fruitguy/Katas/AlarmSet.java,b\a\ba0dfcfce928e314a07b9e64799f1c57639a5769
 T
 $src/main/java/fruitguy/Katas/XO.java,3\e\3efc7b79e35edc5e81e29ef6841895901e7ab10b
-V
-&src/main/java/fruitguy/Katas/High.java,2\3\23f40739d68ea57a81b7bda5e40d753ceaed6948
 Z
 *src/main/java/fruitguy/Katas/Gradbook.java,1\8\183dac0434c28016de81bd9b1e2a12d8b84f5a58
 ^

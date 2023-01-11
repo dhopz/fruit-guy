@@ -1,18 +1,15 @@
 package fruitguy;
 import java.util.*;
+import java.lang.Math;
 
+import static fruitguy.Katas.PredictAge.predictAge;
 
-import static fruitguy.Katas.ReverseLetter.reverseLetter;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println(reverseLetter("ultr53o?n"));
+        System.out.println(predictAge(65,60,75,55,60,63,64,45));
 
     }
-
-
-
-
 
 
 
