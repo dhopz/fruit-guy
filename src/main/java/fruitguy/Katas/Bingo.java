@@ -1,6 +1,7 @@
 package fruitguy.Katas;
 
 public class Bingo {
+    //https://www.codewars.com/kata/5a1ee4dfffe75f0fcb000145/java
     public static String bingo(int[] numberArray){
         StringBuilder str = new StringBuilder();
         for (int x: numberArray){
