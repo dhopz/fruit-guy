@@ -17,8 +17,6 @@ O
 .src/main/java/fruitguy/Katas/SheepCounter.java,b\4\b4003c543e11a4f9ce4308f623111d41c7a7a065
 W
 'src/main/java/fruitguy/Katas/Shape.java,4\a\4a171a01255811a3f295276650e854489e4504ea
-X
-(src/main/java/fruitguy/Katas/Rotten.java,1\5\15240760efb732ddbebd8f4f2e6bea351c64f4d8
 Z
 *src/main/java/fruitguy/Katas/NextFive.java,4\d\4d977b78fad6e96b8df1cc32c4e7c236f8953814
 `
