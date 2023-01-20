@@ -1,15 +1,12 @@
 package fruitguy;
 
-import static fruitguy.Katas.Strings.Covfefe.covfefe;
+import static fruitguy.Katas.Strings.FilterString.filterString;
 
 
 public class App {
     public static void main(String[] args) {
-        System.out.println(covfefe("coverage"));
-        System.out.println(covfefe("coverage coverage"));
-        System.out.println(covfefe("nothing"));
-        System.out.println(covfefe("covfefe"));
-        System.out.println(covfefe("double space "));
+        System.out.println(filterString("aa1bb2cc3dd"));
+        System.out.println(filterString("1766903424209212178"));
 
     }
 
