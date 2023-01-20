@@ -1,4 +1,4 @@
-import fruitguy.Katas.WordScore;
+import fruitguy.Katas.Strings.WordScore;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

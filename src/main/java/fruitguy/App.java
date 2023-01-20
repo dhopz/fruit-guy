@@ -1,8 +1,6 @@
 package fruitguy;
-import java.util.*;
-import java.lang.Math;
 
-import static fruitguy.Katas.Covfefe.covfefe;
+import static fruitguy.Katas.Strings.Covfefe.covfefe;
 
 
 public class App {

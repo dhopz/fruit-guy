@@ -1,4 +1,4 @@
-import fruitguy.Katas.GrabScab;
+import fruitguy.Katas.Arrays.GrabScab;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

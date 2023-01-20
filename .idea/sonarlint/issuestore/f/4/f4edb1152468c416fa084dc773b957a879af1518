@@ -1,6 +1,0 @@
-
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™Œ°ƒ8üÅœ‹È0
-\
-java:S1118":Add a private constructor to hide the implicit public one.(úë½¸ûÿÿÿÿ8¿ÃÊéÅ0
-]	java:S125"<This block of commented-out lines of code should be removed.(õàŸñüÿÿÿÿ8ÁÃÊéÅ0
-U	java:S106"9Replace this use of System.out or System.err by a logger.( ·ÙÙ8ÈÃÊéÅ0

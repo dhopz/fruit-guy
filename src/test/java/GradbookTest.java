@@ -1,4 +1,4 @@
-import fruitguy.Katas.Gradbook;
+import fruitguy.Katas.Characters.Gradbook;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

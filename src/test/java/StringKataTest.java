@@ -1,4 +1,4 @@
-import fruitguy.Katas.StringKata;
+import fruitguy.Katas.Strings.StringKata;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
