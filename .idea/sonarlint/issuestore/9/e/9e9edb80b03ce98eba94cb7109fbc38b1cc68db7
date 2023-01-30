@@ -1,0 +1,16 @@
+
+f
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾
+m
+java:S1104"RMake health a static final constant or non-public and provide accessors if needed.(°ãÉÍûÿÿÿÿ
+v
+java:S1104"[Make damagePerAttack a static final constant or non-public and provide accessors if needed.(°ãÉÍûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ø¢ƒ•ÿÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(“ŒÅàıÿÿÿÿ
+H
+java:S1659"-Declare "damagePerAttack" on a separate line.(°ãÉÍûÿÿÿÿ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(¨Ğ…Ãşÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(¯ÑÙßøÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(¼›¦Ùùÿÿÿÿ
