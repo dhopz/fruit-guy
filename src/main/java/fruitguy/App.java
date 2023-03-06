@@ -1,14 +1,24 @@
 package fruitguy;
 
-import fruitguy.Katas.Booleans.surviveAttack;
+import static fruitguy.Katas.Strings.GreetMe.greet;
 
 public class App {
     public static void main(String[] args) {
-//        System.out.println(surviveAttack.solutionBlock(new int[] { 4, 9, 18, 6, 45, 39, 6, 26, 19 }, new int[] { 5, 15, 7, 28, 50, 7, 34 }));
         System.out.println(weatherInfo(50));
         System.out.println(weatherInfo(23));
+        System.out.println(replaceDots("one.two.three"));
+        System.out.println(greet("riley"));
+        System.out.println(greet("BILLY"));
+        System.out.println(solution("samurai", "ai"));
 
     }
+    public static boolean solution(String str, String ending) {
+        System.out.println(ending.length());
+        String toCheck = str.substring(1).toLowerCase();
+        System.out.println(toCheck);
+        return toCheck.equals(ending);
+    }
+
 
     public static String weatherInfo(int temp) {
         double c = convertToCelsius(temp);
@@ -23,6 +33,10 @@ public class App {
         double celsius = (temperature - 32) * (5/9.0);
         System.out.println(celsius);
         return celsius;
+    }
+
+    public static String replaceDots(final String str) {
+        return str.replaceAll("\\.", "-");
     }
 
 
