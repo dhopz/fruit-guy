@@ -1,5 +1,6 @@
 package fruitguy;
 
+import static fruitguy.Katas.Strings.EndsWith.solution;
 import static fruitguy.Katas.Strings.GreetMe.greet;
 
 public class App {
@@ -7,18 +8,12 @@ public class App {
         System.out.println(weatherInfo(50));
         System.out.println(weatherInfo(23));
         System.out.println(replaceDots("one.two.three"));
-        System.out.println(greet("riley"));
-        System.out.println(greet("BILLY"));
         System.out.println(solution("samurai", "ai"));
+        System.out.println(solution("sumo", "omo"));
+        System.out.println(solution("!@#$%^&*() :-)", ":-)"));
+        System.out.println(solution("abc", "abcd"));
 
     }
-    public static boolean solution(String str, String ending) {
-        System.out.println(ending.length());
-        String toCheck = str.substring(1).toLowerCase();
-        System.out.println(toCheck);
-        return toCheck.equals(ending);
-    }
-
 
     public static String weatherInfo(int temp) {
         double c = convertToCelsius(temp);
