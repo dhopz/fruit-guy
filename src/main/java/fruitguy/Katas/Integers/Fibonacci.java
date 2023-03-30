@@ -1,24 +1,40 @@
 package fruitguy.Katas.Integers;
 
 public class Fibonacci {
+//    public static int fibonacci(int n){
+//        //https://www.codewars.com/kata/5779f894ec8832493f00002d
+//        if (n == 0) {
+//            return 0;
+//        } else if (n==1) {
+//            return 1;
+//        } else {
+//            //return fibonacci(n-1) + fibonacci(n - 2);
+//            int prev1 = 0;
+//            int prev2 = 1;
+//            int current = 0;
+//            for (int i = 2; i<=n; i++){
+//                current = prev1 + prev2;
+//                prev1 = prev2;
+//                prev2 = current;
+//            }
+//            System.out.println(current);
+//            System.out.println("last digit " + current % 10);
+//            return current;
+//        }
+//    }
+
     public static int fibonacci(int n){
-        //https://www.codewars.com/kata/5779f894ec8832493f00002d
-        if (n == 0) {
-            return 0;
-        } else if (n==1) {
-            return 1;
+        if (n<= 1) {
+            return n;
         } else {
-            //return fibonacci(n-1) + fibonacci(n - 2);
-            int prev1 = 0;
-            int prev2 = 1;
-            int current = 0;
-            for (int i = 2; i<=n; i++){
-                current = prev1 + prev2;
-                prev1 = prev2;
-                prev2 = current;
+            int a = 0, b = 1, c = 0;
+            for (int i = 2; i <= n; i++){
+                c = a + b;
+                a = b;
+                b = c;
             }
-            System.out.println(current);
-            return current;
+            System.out.println(c);
+            return c;
         }
     }
 
