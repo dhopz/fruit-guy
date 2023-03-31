@@ -1,27 +1,15 @@
 package fruitguy;
 
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
-import static fruitguy.Katas.Strings.DashInserter.insertDash;
+import static fruitguy.Katas.Arrays.SortOdds.sortOddNumbers;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println(insertDash(454793));
+        System.out.println(Arrays.toString(sortOddNumbers(new int[]{5, 3, 1, 8, 0}))); //1, 3, 5, 8, 0
+        System.out.println(Arrays.toString(sortOddNumbers(new int[]{5, 3, 2, 8, 1, 4}))); // 1, 3, 2, 8, 5, 4
+
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
