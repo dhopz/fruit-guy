@@ -2,14 +2,14 @@ package fruitguy;
 
 import java.util.Arrays;
 
-import static fruitguy.Katas.Arrays.SortOdds.sortOddNumbers;
+import static fruitguy.Katas.Arrays.LargestElement.largest;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(sortOddNumbers(new int[]{5, 3, 1, 8, 0}))); //1, 3, 5, 8, 0
-        System.out.println(Arrays.toString(sortOddNumbers(new int[]{5, 3, 2, 8, 1, 4}))); // 1, 3, 2, 8, 5, 4
-
+        System.out.println(Arrays.toString(largest(2, new int[]{1, 2, 3, 4, 5, 6})));
     }
+
+
 
 }
 
