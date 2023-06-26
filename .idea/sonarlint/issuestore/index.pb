@@ -23,8 +23,6 @@ _
 /src/main/java/fruitguy/Katas/Strings/Bingo.java,b\6\b69235a58278951f7a4321337cd698eda7b2349b
 [
 +src/main/java/fruitguy/Katas/Oop/Block.java,1\2\12e23b5b0b3bf0d8fb0b176a09d80dcd196a8cbd
-a
-1src/main/java/fruitguy/Katas/Arrays/CardGame.java,9\d\9d1255db325ea2332f690be19ee20263d7e67a2e
 e
 5src/main/java/fruitguy/Katas/Strings/CountKookas.java,6\f\6facfa015b557a0e203c253959f3da154ed2250a
 h
@@ -73,8 +71,6 @@ f
 0src/main/java/fruitguy/Katas/Strings/Sorter.java,7\6\76f35f1e5bc4034092615e7b8fb1e4285746bf08
 d
 4src/main/java/fruitguy/Katas/Strings/Stratholme.java,3\a\3a4613a73e54eb3fdfe60397312961c6b3ee23a9
-]
--src/main/java/fruitguy/Katas/Arrays/Text.java,e\0\e0ed57a49759f795845d4c8c2833fab865bc08b1
 b
 2src/main/java/fruitguy/Katas/Strings/TripTrub.java,4\5\45c167238a768a7db1da84b0eb7b2c6fc6c06e19
 _
