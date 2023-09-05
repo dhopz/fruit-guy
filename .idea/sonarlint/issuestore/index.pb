@@ -42,8 +42,6 @@ f
 a
 1src/main/java/fruitguy/Katas/Arrays/Deadfish.java,9\7\97d226ecfb52b1161497e0e0b36c066cc84a7d20
 d
-4src/main/java/fruitguy/Katas/Integers/Deodorant.java,2\5\25da48e008cb04661cb711272ab6cbf7eab1ba04
-d
 4src/main/java/fruitguy/Katas/Integers/FuelPrice.java,1\2\1247ab123ff947cb11ad6c2c86b34836babe1639
 e
 5src/main/java/fruitguy/Katas/Characters/Gradbook.java,6\a\6a5285c2295497cd61a97c19e918dd3aaf01d8f8
@@ -51,10 +49,6 @@ a
 1src/main/java/fruitguy/Katas/Strings/Nerdify.java,a\5\a5b7c30aafe22a93481e4cc35cc5c9982c9dad63
 g
 7src/main/java/fruitguy/Katas/Arrays/NewIncrementer.java,2\5\2595c1a874e9b7867018cdb6302a502585b23bb7
-e
-5src/main/java/fruitguy/Katas/Integers/PredictAge.java,6\7\6786b5ae1d9632cc33c8b1bc3d5957a6fc2d4526
-n
->src/main/java/fruitguy/Katas/Integers/removeLowestHighets.java,8\7\87d1d32889b0a071811ff5309a318a927f306caa
 d
 4src/main/java/fruitguy/Katas/Strings/ReplaceNth.java,a\5\a51cbf9f55b986fd8be0db86964aee8aa3f0f59d
 g
