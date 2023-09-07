@@ -6,41 +6,42 @@ import static fruitguy.Katas.Arrays.Spacey.spacey;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println(ATM(770));
-        System.out.println(ATM(238));
+        System.out.println(ATM(10));
+//        System.out.println(ATM(238));
 
-    }
+  }
 
     public static int ATM(int n) {
-//        int i = 0;
-//        while (i < 5) {
-//            System.out.println(i);
-//            i++;
-//        }
-
-//        if(n % 500 == 0){
-//            System.out.println("this ");
-//            counter ++;
-//        } else {
-//            System.out.println("divisible");
-//            counter ++;
-//        }
-//        System.out.println(n % 500);
-
-        // Variable to store the counter
         int counter = 0;
+        int newSum = n;
 
-        // Running a loop from A to B and check
-        // if a number is divisible by M.
-        int newNumber = n;
-        for (int i = 0; i <= n; i++)
-            if (i % 500 == 0)
-                newNumber = newNumber - 500;
-                counter++;
+        while (newSum != 0) {
+            if (n%10 != 0) {
+                return -1;
+            } else if (newSum >= 500) {
+                counter = counter + (n / 500);
+                newSum = newSum - (counter * 500);
+            } else if (newSum >= 200) {
+                counter = counter + (newSum / 200);
+                newSum = newSum - ((newSum / 200) * 200);
+            } else if (newSum >= 100) {
+                counter = counter + (newSum / 100);
+                newSum = newSum - ((newSum / 100) * 100);
+            } else if (newSum >= 50) {
+                counter = counter + (newSum / 50);
+                newSum = newSum - ((newSum / 50) * 50);
+            } else if (newSum >= 20) {
+                counter = counter + (newSum / 20);
+                newSum = newSum - ((newSum / 20) * 20);
+            } else if (newSum >= 10) {
+                counter = counter + (newSum / 10);
+                newSum = newSum - ((newSum / 10) * 10);
+            }
+
+        }
+
 
         return counter;
-
-
 
 
     }

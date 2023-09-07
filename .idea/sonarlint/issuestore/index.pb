@@ -29,8 +29,6 @@ h
 8src/main/java/fruitguy/Katas/Arrays/CountPassengers.java,2\7\27cd7ea77304e08db1344ff9d387f89c91f89f41
 a
 1src/main/java/fruitguy/Katas/Games/DecWinner.java,9\e\9e9edb80b03ce98eba94cb7109fbc38b1cc68db7
-\
-,src/main/java/fruitguy/Katas/Games/Fizz.java,0\a\0a0886d23404973e67ba8f6c660b1a492c9e12f1
 d
 4src/main/java/fruitguy/Katas/Games/FluchChecker.java,e\7\e7bbb32000e0b6d4e88b846f5897725e6aa2e818
 o
