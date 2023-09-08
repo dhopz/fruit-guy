@@ -1,6 +1,0 @@
-
-u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê”§8¡é‘÷Ü0
-W
-java:S1118":Add a private constructor to hide the implicit public one.(»ÙØ8®œëÅ0
-`
-java:S1128">Remove this unused import 'org.jetbrains.annotations.NotNull'.(éš®ïøÿÿÿÿ8½å‚ëÅ0
