@@ -103,8 +103,6 @@ h
 8src/main/java/fruitguy/Katas/Integers/RemovingFives.java,c/7/c7f93049c3eb3b300860bac3681e814d443203af
 a
 1src/main/java/fruitguy/Katas/Strings/Nerdify.java,a/5/a5b7c30aafe22a93481e4cc35cc5c9982c9dad63
-d
-4src/main/java/fruitguy/Katas/Strings/StringKata.java,8/f/8f1be3b132f5e543fa56237ea197d235b32107f7
 m
 =src/main/java/fruitguy/Katas/Strings/ResponsibleDrinking.java,b/7/b786363b93c01c00fbcbce9e209be93cff9d26e0
 g
