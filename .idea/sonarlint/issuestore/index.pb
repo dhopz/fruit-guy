@@ -25,8 +25,6 @@ _
 +src/main/java/fruitguy/Katas/Oop/Block.java,1\2\12e23b5b0b3bf0d8fb0b176a09d80dcd196a8cbd
 e
 5src/main/java/fruitguy/Katas/Strings/CountKookas.java,6\f\6facfa015b557a0e203c253959f3da154ed2250a
-h
-8src/main/java/fruitguy/Katas/Arrays/CountPassengers.java,2\7\27cd7ea77304e08db1344ff9d387f89c91f89f41
 a
 1src/main/java/fruitguy/Katas/Games/DecWinner.java,9\e\9e9edb80b03ce98eba94cb7109fbc38b1cc68db7
 d
@@ -117,8 +115,6 @@ _
 /src/main/java/fruitguy/Katas/Arrays/Spacey.java,7/2/72dfc72f232dce836a2ac8f8e6443187485d2dfe
 _
 /src/main/java/fruitguy/Katas/WhileLoop/Atm.java,8/6/86bd9a5522afec63ab34d77211e388a5e125162b
-a
-1src/main/java/fruitguy/Katas/Arrays/CardGame.java,9/d/9d1255db325ea2332f690be19ee20263d7e67a2e
 `
 0src/main/java/fruitguy/Katas/Arrays/FixPipe.java,b/a/bad5011ff91fd8b45c5d31c76ebeb062b8a1945f
 g
@@ -139,5 +135,7 @@ g
 7src/main/java/fruitguy/Katas/Arrays/NewIncrementer.java,2/5/2595c1a874e9b7867018cdb6302a502585b23bb7
 d
 4src/main/java/fruitguy/Katas/Arrays/ScoringTest.java,4/4/44c602756ca09d1bf3d10da1b76d5268a82cd753
-f
-6src/main/java/fruitguy/Katas/Arrays/BasketCounter.java,a/5/a5883f4121c7c76431604329f4fd8fe045617f7b
+d
+4src/main/java/fruitguy/Katas/Strings/StringKata.java,8/f/8f1be3b132f5e543fa56237ea197d235b32107f7
+l
+<src/main/java/fruitguy/Katas/HashMapExamples/CardSorter.java,b/a/ba0cff8ea1e43512c1bab21917e1c48af66e0164
