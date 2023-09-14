@@ -1,0 +1,6 @@
+
+{
+java:S1319"eThe type of "stops" should be an interface such as "List" rather than the implementation "ArrayList".(μμ¥Ά
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(κ”§
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ώ™Ε³
