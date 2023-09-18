@@ -145,3 +145,7 @@ b
 2src/main/java/fruitguy/Katas/Strings/EndsWith.java,4/7/47003ba4d09b43ad9a60d6f50e5024b0ddf25592
 f
 6src/main/java/fruitguy/Katas/Strings/FilterString.java,a/9/a9b8ea9b70e42e451f694d924f892edb3a625ac1
+a
+1src/main/java/fruitguy/Katas/Strings/Nerdify.java,a/5/a5b7c30aafe22a93481e4cc35cc5c9982c9dad63
+g
+7src/main/java/fruitguy/Katas/Strings/ReverseString.java,e/1/e19e8ff37746eebb4f69bb25fd788ebd3575a255
