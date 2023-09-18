@@ -16,9 +16,16 @@ public class App {
         int[] sums = new int[ls.length];
 
         int i = 0;
-        for (int n:ls){
-            sums[i++] = n;
+        int total = 0;
+        for (int sum: sums) {
+
+            for (int n : ls) {
+                total += n;
+                //            sums[i++] = total;
+            }
+            sums[i++] = total;
         }
+
 
         return sums;
     }
