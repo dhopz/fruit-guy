@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StringKataTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2023-10-03T14:02:43" hostname="Davids-MacBook-Pro.local" time="0.02">
+  <properties/>
+  <testcase name="givenAnArray_WhenThereIsMultipleStringsOfTheSame_ThenReturnCountOfTheAppearance()" classname="StringKataTest" time="0.001"/>
+  <testcase name="givenAnArray_WhenThereIsAnArrayWithNull_ThenReturnCountOfNulls()" classname="StringKataTest" time="0.001"/>
+  <testcase name="givenAnArray_WhenThereIsAnArrayWithNumbers_ThenReturnCountOfAppearance()" classname="StringKataTest" time="0.001"/>
+  <testcase name="givenAnArray_WhenThereIs2StringsInArray_ThenReturnSingleAppearanceForBothStrings()" classname="StringKataTest" time="0.002"/>
+  <testcase name="givenAnArray_WhenThereIsAnArrayWithMultipleInstancesOfMultipleStrings_ThenReturnCountOfAppearances()" classname="StringKataTest" time="0.0"/>
+  <testcase name="givenAnArray_WhenThereAreManyDifferentStrings_ThenReturnCountForStringAppearance()" classname="StringKataTest" time="0.001"/>
+  <testcase name="givenAnArray_WhenThereIsACombinationOfLettersAnStringsAndNumbers_ThenReturnCountOfAppearance()" classname="StringKataTest" time="0.0"/>
+  <testcase name="givenAnArray_WhenThereIsAnArrayWithUpperCaseAnLowerCase_ThenReturnCountOfAppearance()" classname="StringKataTest" time="0.001"/>
+  <testcase name="givenAnArray_WhenThereIsAnArrayWithWords_ThenReturnCountOfAppearance()" classname="StringKataTest" time="0.001"/>
+  <testcase name="givenAnArray_WhenThereIsAnArrayWithPunctuatedWords_ThenReturnCountOfAppearance()" classname="StringKataTest" time="0.0"/>
+  <testcase name="givenAnArray_WhenThereIsAnArrayWithMultipleInstancesOfMultipleStringsInShuffledArray_ThenReturnCountOfAppearances()" classname="StringKataTest" time="0.0"/>
+  <testcase name="givenAnArray_WhereThereIsAnEmptyArray_ThenReturnAnEmptyMap()" classname="StringKataTest" time="0.0"/>
+  <testcase name="givenWeReceiveAnArray_WhenThereIsASingleString_ThenReturnsASingleAppearance()" classname="StringKataTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CardGameTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2023-10-03T14:02:43" hostname="Davids-MacBook-Pro.local" time="0.075">
+  <properties/>
+  <testcase name="winner_AceBeatsKing_returnStringForWinner()" classname="CardGameTest" time="0.05"/>
+  <testcase name="winner_AceBeatsKing_returnDifferentStringForWinner()" classname="CardGameTest" time="0.001"/>
+  <testcase name="winner_GivenCardsThatAreNumerical_ThenReturnStringWithWinner()" classname="CardGameTest" time="0.002"/>
+  <testcase name="winner_Given2CardsEach_ThenReturnStringWithWinnerHaving2Points()" classname="CardGameTest" time="0.002"/>
+  <testcase name="winner_GivenCardsThatAreNotKingOrAce_ThenReturnStringWithWinner()" classname="CardGameTest" time="0.001"/>
+  <testcase name="winner_Given2CardsEachTheSameButDifferentOrder_ThenReturnStringWithTie()" classname="CardGameTest" time="0.001"/>
+  <testcase name="winner_GivenCardsThatAreNumericalInDifferentOrder_ThenReturnStringWithWinner()" classname="CardGameTest" time="0.0"/>
+  <testcase name="winner_Given3CardsEach_ThenReturnStringWithTie()" classname="CardGameTest" time="0.001"/>
+  <testcase name="winner_Given2CardsEachTheSame_ThenReturnStringWithTie()" classname="CardGameTest" time="0.001"/>
+  <testcase name="winner_GivenCardsThatAreNumericalInDifferentOrderWithExample_ThenReturnStringWithWinner()" classname="CardGameTest" time="0.001"/>
+  <testcase name="winner_GivenCardsThatAreSmallDeck_ThenReturnTie()" classname="CardGameTest" time="0.001"/>
+  <testcase name="winner_Given2CardsEachWithJoshAce_ThenReturnStringWithWinnerHaving2Points()" classname="CardGameTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

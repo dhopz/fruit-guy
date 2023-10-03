@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DeadfishTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2023-10-03T14:02:43" hostname="Davids-MacBook-Pro.local" time="0.015">
+  <properties/>
+  <testcase name="parse_GivenAStringOfIIISD_ThenNumberThatSquaresIsDecremented()" classname="DeadfishTest" time="0.0"/>
+  <testcase name="parse_GivenARangeOfStringItems_ThenArrayHasASizeOf3AndIsSquared()" classname="DeadfishTest" time="0.002"/>
+  <testcase name="parse_GivenARangeOfStringItems_ThenArrayHasASizeOf2AndIsSquared()" classname="DeadfishTest" time="0.0"/>
+  <testcase name="parse_GivenAStringOfIIS_ThenNumberThatSquares()" classname="DeadfishTest" time="0.001"/>
+  <testcase name="parse_GivenAStringOfIOIO_ThenArrayHasASizeOf2()" classname="DeadfishTest" time="0.0"/>
+  <testcase name="parse_GivenAStringOfI_ThenReturnAnIncrementOf1()" classname="DeadfishTest" time="0.001"/>
+  <testcase name="parse_GivenAStringOfI_ThenReturnAnArray()" classname="DeadfishTest" time="0.001"/>
+  <testcase name="parse_GivenARangeOfStringItems_ThenDifferentArrayHasASizeOf3AndIsSquared()" classname="DeadfishTest" time="0.001"/>
+  <testcase name="parse_GivenAStringOfIIIS_ThenReturnAnArrayWithASquaredNum()" classname="DeadfishTest" time="0.001"/>
+  <testcase name="parse_GivenAStringThatSquaresOfIO_ThenArrayHasASizeOf2AndIsSquared()" classname="DeadfishTest" time="0.001"/>
+  <testcase name="parse_GivenAStringOfIIISDO_ThenNumberThatSquaresIsDecremented()" classname="DeadfishTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

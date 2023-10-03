@@ -2,8 +2,6 @@
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 O
-src/test/java/CardGameTest.java,0\c\0cdc1351bc15e168b2173020858dfd4bda815569
-O
 src/test/java/DeadfishTest.java,d\c\dc594e911b3b80153e36382e20bd526729deefd4
 5
 notes,3\a\3add7b9612102f2a7dbe4ed4fe886e07e847c24d
