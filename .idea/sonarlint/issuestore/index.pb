@@ -49,8 +49,6 @@ c
 -src/main/java/fruitguy/Katas/Booleans/XO.java,2\a\2aa1fd89b161e44cbcc900192d20c97519674693
 ^
 .src/main/java/fruitguy/Katas/Strings/High.java,a\d\ad554d1240b804d3d76a29531fbbc8859819dfc5
-_
-/src/main/java/fruitguy/Katas/Games/CodeWar.java,b\b\bb7cc020b837807b23c87df4f8f96d0839672418
 j
 :src/main/java/fruitguy/Katas/Strings/StringDuplicates.java,9\4\944f0a6dfa954d4e57fe9d72e61e7d87223bb9be
 h
@@ -85,8 +83,6 @@ d
 4src/main/java/fruitguy/Katas/Strings/ReplaceNth.java,a/5/a51cbf9f55b986fd8be0db86964aee8aa3f0f59d
 a
 1src/main/java/fruitguy/Katas/Strings/GreetMe.java,0/2/02ea9c6def076e409507acb1658187a74d9c0d26
-\
-,src/main/java/fruitguy/Katas/Games/Fizz.java,0/a/0a0886d23404973e67ba8f6c660b1a492c9e12f1
 _
 /src/main/java/fruitguy/Katas/Arrays/Spacey.java,7/2/72dfc72f232dce836a2ac8f8e6443187485d2dfe
 _
@@ -147,3 +143,5 @@ a
 1src/main/java/fruitguy/Katas/Strings/Nerdify.java,a/5/a5b7c30aafe22a93481e4cc35cc5c9982c9dad63
 g
 7src/main/java/fruitguy/Katas/Strings/ReverseString.java,e/1/e19e8ff37746eebb4f69bb25fd788ebd3575a255
+O
+src/test/java/CardGameTest.java,0/c/0cdc1351bc15e168b2173020858dfd4bda815569
