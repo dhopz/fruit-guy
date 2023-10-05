@@ -145,3 +145,17 @@ g
 7src/main/java/fruitguy/Katas/Strings/ReverseString.java,e/1/e19e8ff37746eebb4f69bb25fd788ebd3575a255
 O
 src/test/java/CardGameTest.java,0/c/0cdc1351bc15e168b2173020858dfd4bda815569
+i
+9src/main/java/fruitguy/Katas/Algorithms/ChessChecker.java,4/2/420298f1314cea0355fc8efb224e2367d994efad
+a
+1src/main/java/fruitguy/Katas/Strings/NextInt.java,1/3/13320724aea9fa8f6e2efdf49c62620614ad6408
+b
+2src/main/java/fruitguy/Katas/Strings/LongWord.java,8/f/8feb77e9a7283893198b4856d568a53605293329
+a
+1src/main/java/fruitguy/Katas/Arrays/SumParts.java,5/8/583852595492fdc3d11248671de2349debbcddb2
+j
+:src/main/java/fruitguy/Katas/Arrays/CalculateRotation.java,7/0/708f3764822ec06634b765364effabecb8496f52
+\
+,src/main/java/fruitguy/Katas/Games/Fizz.java,0/a/0a0886d23404973e67ba8f6c660b1a492c9e12f1
+_
+/src/main/java/fruitguy/Katas/Games/CodeWar.java,b/b/bb7cc020b837807b23c87df4f8f96d0839672418

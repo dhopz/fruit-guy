@@ -1,0 +1,8 @@
+
+y	java:S1278"XRefactor the code in order to not assign to this loop counter from within the loop body.(­–„úÿÿÿÿ8×€¯1
+r	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ôÙäûÿÿÿÿ8×€¯1
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê”§
+W
+java:S1118":Add a private constructor to hide the implicit public one.(á†÷ó8ç×€¯1
+J
+java:S1481N"(Remove this unused "sum" local variable.(£‰àşÿÿÿÿ8€Ø€¯1
