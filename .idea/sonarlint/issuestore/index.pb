@@ -99,8 +99,6 @@ a
 1src/main/java/fruitguy/Katas/Arrays/SortOdds.java,4/1/419939f649512e1b8a358130f803930f436306f8
 a
 1src/main/java/fruitguy/Katas/Arrays/GrabScab.java,b/f/bfdaf71da2a27a4003b446228cb9a38ed8941dfb
-d
-4src/main/java/fruitguy/Katas/Arrays/MergeArrays.java,9/7/9787618bbee1db73ce05c1b5663c7bba44ef3471
 a
 1src/main/java/fruitguy/Katas/Arrays/Deadfish.java,9/7/97d226ecfb52b1161497e0e0b36c066cc84a7d20
 g
@@ -115,10 +113,6 @@ l
 0src/main/java/fruitguy/Katas/Doubles/Circle.java,d/a/dac4cdeb0644b29b64217211820d45ec2496a442
 k
 ;src/main/java/fruitguy/Katas/Arrays/RobotTattooRemoval.java,8/4/841ca205464a8d527e235dafbe0991744a2c75ac
-f
-6src/main/java/fruitguy/Katas/Arrays/BasketCounter.java,a/5/a5883f4121c7c76431604329f4fd8fe045617f7b
-a
-1src/main/java/fruitguy/Katas/Arrays/CardGame.java,9/d/9d1255db325ea2332f690be19ee20263d7e67a2e
 h
 8src/main/java/fruitguy/Katas/Arrays/CountPassengers.java,2/7/27cd7ea77304e08db1344ff9d387f89c91f89f41
 j
@@ -153,9 +147,11 @@ b
 2src/main/java/fruitguy/Katas/Strings/LongWord.java,8/f/8feb77e9a7283893198b4856d568a53605293329
 a
 1src/main/java/fruitguy/Katas/Arrays/SumParts.java,5/8/583852595492fdc3d11248671de2349debbcddb2
-j
-:src/main/java/fruitguy/Katas/Arrays/CalculateRotation.java,7/0/708f3764822ec06634b765364effabecb8496f52
 \
 ,src/main/java/fruitguy/Katas/Games/Fizz.java,0/a/0a0886d23404973e67ba8f6c660b1a492c9e12f1
 _
 /src/main/java/fruitguy/Katas/Games/CodeWar.java,b/b/bb7cc020b837807b23c87df4f8f96d0839672418
+h
+8src/main/java/fruitguy/Katas/Algorithms/CardChecker.java,1/9/19a66952df7e221179c4261ffb74b2bdd7e3becd
+m
+=src/main/java/fruitguy/Katas/Algorithms/TicTacToeChecker.java,e/f/ef16c53b4c845a5ee31b5221ad92d9eb4b77a53f

@@ -1,0 +1,8 @@
+
+j
+java:S1192"HDefine a constant instead of duplicating this literal "Unknown" 3 times.(ÙŸ˜Ïùÿÿÿÿ8‡“ßû¯1
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëàâä
+\
+java:S1118":Add a private constructor to hide the implicit public one.(ÇÃºÉüÿÿÿÿ8¾ÔÜû¯1
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ãÃÈ½8ÄÔÜû¯1

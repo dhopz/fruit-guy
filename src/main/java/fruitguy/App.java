@@ -1,26 +1,33 @@
 package fruitguy;
 
-import java.util.Arrays;
-import java.util.Objects;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
-import static fruitguy.Katas.Algorithms.CardChecker.getIssuer;
 import static fruitguy.Katas.Algorithms.TicTacToeChecker.isSolved;
 
 public class App {
     public static void main(String[] args) {
-        int [][] board = new int[][] {
-                {0, 0, 1},
-                {0, 1, 2},
-                {2, 1, 0}
-        };
-        System.out.println(isSolved(board));
+        List<String> children = new ArrayList<>();
+        Collections.addAll(children, "Jason", "Jackson", "Jordan", "Johnny");
+        List<String> goodChildren = new ArrayList<>();
+        Collections.addAll(goodChildren,"Jason","Jordan","Jennifer");
+        System.out.println(findChildren(children,goodChildren));
 
-        int[][] newBoard = new int[][] {
-                {1, 1, 1},
-                {0, 2, 2},
-                {0, 0, 0}
-        };
-        System.out.println(isSolved(newBoard));
+
+
+    }
+
+    public static List<String> findChildren(List<String> santasList, List<String> children) {
+        List<String> childrenList = new ArrayList<>();
+
+        for (String kid : santasList) {
+            if (!childrenList.contains(kid)) {
+                childrenList.add(kid);
+            }
+        }
+        System.out.println(childrenList);
+        return childrenList;
     }
 
 
