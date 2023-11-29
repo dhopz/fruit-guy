@@ -13,8 +13,6 @@ O
 src/test/java/GradbookTest.java,a\9\a98f4cc45e9f373dabe577db51c28dfe12385452
 P
  src/test/java/WordScoreTest.java,e\5\e5e7253177e2b40beeb4fc1d9f33471fef9d568c
-Q
-!src/test/java/StringKataTest.java,d\a\da6aef9a3494730d5c6febfa3028eb7e675b3236
 c
 3src/main/java/fruitguy/Katas/Booleans/AlarmSet.java,3\c\3ccaea7f04f9910f8dc3cbf7c4cc5702ce5136ea
 [
@@ -137,8 +135,6 @@ a
 1src/main/java/fruitguy/Katas/Strings/Nerdify.java,a/5/a5b7c30aafe22a93481e4cc35cc5c9982c9dad63
 g
 7src/main/java/fruitguy/Katas/Strings/ReverseString.java,e/1/e19e8ff37746eebb4f69bb25fd788ebd3575a255
-O
-src/test/java/CardGameTest.java,0/c/0cdc1351bc15e168b2173020858dfd4bda815569
 i
 9src/main/java/fruitguy/Katas/Algorithms/ChessChecker.java,4/2/420298f1314cea0355fc8efb224e2367d994efad
 a
@@ -155,3 +151,11 @@ h
 8src/main/java/fruitguy/Katas/Algorithms/CardChecker.java,1/9/19a66952df7e221179c4261ffb74b2bdd7e3becd
 m
 =src/main/java/fruitguy/Katas/Algorithms/TicTacToeChecker.java,e/f/ef16c53b4c845a5ee31b5221ad92d9eb4b77a53f
+f
+6src/main/java/fruitguy/Katas/Arrays/BasketCounter.java,a/5/a5883f4121c7c76431604329f4fd8fe045617f7b
+j
+:src/main/java/fruitguy/Katas/Arrays/CalculateRotation.java,7/0/708f3764822ec06634b765364effabecb8496f52
+d
+4src/main/java/fruitguy/Katas/Arrays/MergeArrays.java,9/7/9787618bbee1db73ce05c1b5663c7bba44ef3471
+Q
+!src/test/java/StringKataTest.java,d/a/da6aef9a3494730d5c6febfa3028eb7e675b3236
